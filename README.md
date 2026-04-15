@@ -63,11 +63,7 @@ dist/
 ### Server Command-Line flags
 
 ```
-sharpsocks-server \
-  -agent-password <pass> \
-  -socks-username <user> \
-  -socks-password <pass> \
-  -transport tls
+sharpsocks-server -agent-password <pass> -socks-username <user> -socks-password <pass> -transport tls
 ```
 
 All server flags:
