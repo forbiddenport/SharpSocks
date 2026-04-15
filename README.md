@@ -154,3 +154,8 @@ The tunnel uses layered security independent of the transport mode:
 6. **Certificate pinning** -- agent can pin the server certificate by SHA256 fingerprint to prevent MITM
 7. **SOCKS5 authentication** -- mandatory username/password authentication on the proxy endpoint
 8. **Constant-time comparisons** -- all credential and MAC checks use constant-time comparison to prevent timing side-channels
+
+## License
+
+This project is licensed under the GNU GENERAL PUBLIC LICENSE.
+See the [LICENSE](LICENSE) file for more details.
