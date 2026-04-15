@@ -91,11 +91,7 @@ When `-transport tls` is used, the server generates a self-signed certificate an
 Standalone:
 
 ```
-SharpSocks.exe \
- :server <host> \
- :agent-password <pass> \
- :transport tls \
- :tls-fingerprint <sha256>
+SharpSocks.exe --server <host> --agent-password <pass> --transport tls --tls-fingerprint <sha256>
 ```
 
 Reflective loading:
